@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url("reset.css");
+
+html{
+  scroll-behavior: smooth;
+}
+
+html, body {
+/*   height: 100%; */
+  width: 100%;
+  font-family:"Roboto";
+}
+
+body {
+ background-color: #EDE2D5;
+}
+
+header {
+  background-color: #EDE2D5;
+  padding: 1em 0;
+  position: sticky;
+  top: 0px;
+  bottom: 0px;
+  z-index: 1;
+  border-bottom: 2px solid black
+}
+
+.header-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 105px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 120px;
+}
+
+.site_logo{
+width: 40px;
+height: 40px;
+}
+
+.headline {
+font-size: 1.2em;
+font-weight:bold;
+}
+
+.navigation{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 300px;
+}
+
+.help_buttons{
+  display: flex;
+  align-items: center;
+  min-width: 200px;
+  justify-content: space-between;
+}
+
+.product-card {
+  text-align: center;
+  width: max-content;
+  padding: 10px;
+  border: 4px solid; 
+  border-radius: 20px;
+  background-color: #6F6FA6;
+}
+
+main {
+  max-width: 1200px;
+  margin: 2em auto;
+  color: #FEF9FF;
+  font-family: sans-serif;
+}
+
+.product-image {
+  border: 4px solid;
+  border-radius: 20px;
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+}
+
+.sale-label {
+  font-size: 16px;
+  box-sizing: border-box;
+  background-color: #FF6633;
+  padding: 6px 8px;
+  width: 50px;
+  border-radius: 4px 4px 4px 20px;
+  position: absolute;
+  bottom: 12px;
+  left: 10px;
+}
+
+
+.product-price {
+  font-size: 1.5em;
+}
+
+.product-name {
+  font-size: 1.25em;
+}
+
+.product-gallery{
+  display: grid;
+/*   grid-template-columns: repeat(3, 1fr); */
+  grid-template-columns: repeat(auto-fill, minmax(328px, 1fr));
+  row-gap: 20px;
+  column-gap: 20px;
+  justify-items: center;
+}
+
+.product-rating {
+/*   margin-bottom: 5px; */
+}
+
+/* @media screen and (max-width: 1200px) {
+  .product-gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+ */
+@media screen and (max-width: 900px) {
+  .header-flex {
+    margin: 0;
+    justify-content: space-around;
+    gap: 1em;
+  }
+}
+
+/* @media screen and (max-width: 700px) {
+  .product-gallery {
+    grid-template-columns: 1fr;
+  }
+} */
+
+.form-field {
+  max-width: 400px;
+  margin: 0 auto;
+  color: black;
+}
+
+.form-field > input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}

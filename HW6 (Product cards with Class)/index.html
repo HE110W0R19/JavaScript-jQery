@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+  <main>
+
+    <form action='' id="InputForm">
+      <div class="form-field">
+        Название товара: <input id="ProdName" required type="text">
+      </div>
+      <div class="form-field">
+        Цена в рублях: <input id="ProdCost" required type="number">
+      </div>
+      <div class="form-field">
+        Ссылка на изображение: <input id="ProdImgSrc" required type="url">
+      </div>
+      <div class="form-field">
+        <input id="AddButton" type="submit" value="Создать">
+      </div>
+    </form>
+
+    <div class="product-gallery">
+      <div class="product-card">
+        <img class="product-image" src="https://picsum.photos/300?random=1" />
+        <div class="product-price">300 Руб.</div>
+        <div class="product-name">Горшок Цветочный (Жив!)</div>
+      </div>
+
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
