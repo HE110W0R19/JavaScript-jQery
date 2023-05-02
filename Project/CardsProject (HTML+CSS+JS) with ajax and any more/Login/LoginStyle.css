@@ -1,0 +1,36 @@
+html{
+  background-color: #e6d2b7;
+}
+
+#SecureImg{
+  margin-left: 50px;
+  margin-bottom: 10px;
+  width: 150px;
+  height: 150px;
+}
+
+.login-form{
+  height: fit-content;
+  width: fit-content;
+  margin: 0 auto;
+  margin-top: 150px;
+}
+
+.submit-login{
+  height: 25px;
+  width:  80px;
+  background-color: #e3e3e3;
+  border: 1px solid black;
+  border-radius: 3px;
+  margin-left: 90px;
+  margin-top: 15px;
+}
+
+input{
+  background-color: #e6d2b7;
+  border: 0px;
+}
+
+.WrongEnterMessage{
+  display: none;
+}

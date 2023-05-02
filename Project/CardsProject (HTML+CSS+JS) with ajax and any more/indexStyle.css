@@ -1,0 +1,37 @@
+html {
+  background-color: #e6d2b7;
+  height: 100%;
+  width: 100%;
+}
+
+.card-block{
+  height: fit-content;
+  width: fit-content;
+  margin: 0 auto;
+  margin-top: 150px;
+}
+
+#cards-image{
+  height: 300px;
+  width: 300px;
+}
+
+.EntButton{
+  height: 25px;
+  width:  80px;
+  margin: 5px;
+}
+
+.RegButton{
+  height: 25px;
+  width:  80px;
+  margin: 5px;
+}
+
+.menu-buttons{
+  z-index: 10;
+  height: fit-content;
+  width: fit-content;
+  margin: 0 auto;
+  margin-top: 20px;
+}

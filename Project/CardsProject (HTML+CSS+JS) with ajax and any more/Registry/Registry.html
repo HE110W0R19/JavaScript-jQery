@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Registry</title>
+  <link href="RegistryStyle.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <form class="reg-form">
+
+    <img id="reg-image" src="../Images/Registry.svg"></img>
+
+    <div class="input-wrapper">> Email: <input required name="email" type="email"></div>
+
+    <div class="input-wrapper">> User Name: <input required name="username" type="text"></div>
+
+    <div class="input-wrapper">> Password: <input required name="password" type="password"></div>
+
+    <div class="input-wrapper">> Confirm Password: <input required name="passwordConfirm" type="password"></div>
+
+    <div class="input-wrapper"><input required class="submit-registration" type="submit" label="Зарегистрироваться"
+        value="Registry">
+    </div>
+
+  </form>
+
+  <div class="RegReady">
+    Successful registration!
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="RegistryLog.js"></script>
+</body>
+
+</html>

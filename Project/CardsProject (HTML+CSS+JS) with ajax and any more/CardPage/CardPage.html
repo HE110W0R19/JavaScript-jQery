@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="CardPageStyle.css" rel="stylesheet" type="text/css" />
+  <title>MyCards</title>
+</head>
+<header class="prod_header">
+  <div align="center" class="HeaderContent">
+    <button class="ExitButton">Exit</button>
+    Welcome! It`s your card list...
+  </div>
+</header>
+
+<body>
+
+  <form action='' class="CreateCardForm">
+    <div class="input-wrapper">> Card name: <input required name="productName" type="text"></div>
+    <div class="input-wrapper">> Price: <input required name="productPrice" min=1 type="number"></div>
+    <div class="input-wrapper">> Image: <input required name="productImage" type="file"
+        accept="image/jpeg,image/png,image/svg+xml,image/gif,image/webp"></div>
+    <div class="input-wrapper"><input id="CreateButton" type="submit" value="Create">
+    </div>
+  </form>
+
+  <div class="prod_gallery">
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="CardRequests.js"></script>
+  <script src="CardsClasses.js"></script>
+  <script src="CardPageLog.js"></script>
+</body>
+
+</html>
